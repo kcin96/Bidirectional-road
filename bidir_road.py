@@ -20,7 +20,6 @@ def injcars(list,ind):
 
 def injsp(list,input,left_or_right):
     list[1:10]=list[0:9]
-#    list[2:10]=list[1:9]
     if input=='stay':
     	list[0]=0
     else:
@@ -33,7 +32,6 @@ def injsp(list,input,left_or_right):
 def injcarss(list):
     list[1:10]=list[0:9]
     list[0]=0
-#    list[2:10]=list[1:9]
 
 def tracker(roadl,roadr):
     L_l=0
